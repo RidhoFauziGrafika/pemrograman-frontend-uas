@@ -1,14 +1,14 @@
 function Province(props) {
-  const covid = props;
+  const { no, kota, kasus, sembuh, dirawat, meninggal } = props;
   return (
     <tbody>
       <tr>
-        <td>{covid.no}</td>
-        <td>{covid.kota}</td>
-        <td>{covid.kasus}</td>
-        <td>{covid.sembuh}</td>
-        <td>{covid.dirawat}</td>
-        <td>{covid.meninggal}</td>
+        <td>{no}</td>
+        <td>{kota}</td>
+        <td>{kasus}</td>
+        <td>{sembuh}</td>
+        <td>{dirawat}</td>
+        <td>{meninggal}</td>
       </tr>
     </tbody>
   );
